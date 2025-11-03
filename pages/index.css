@@ -1,0 +1,280 @@
+.page {
+  min-width: 1100px;
+  max-width: 1600px;
+  margin: auto;
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  box-sizing: border-box;
+}
+
+.page__header {
+  background-color: #ffffff;
+  background-image: url("../images/background_header.svg");
+  min-height: 720px;
+  max-height: 800px;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 30px 80px 40px 80px;
+}
+
+.page__nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.page__nav-logo {
+  position: relative;
+  left: -50px;
+  width: 135px;
+  height: 39px;
+}
+
+.page__nav-links {
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.page__nav-link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-decoration: none;
+}
+
+.page__header-title {
+  max-width: 709px;
+  margin-bottom: 28px;
+  margin-top: 183px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 58px;
+  line-height: 72px;
+  letter-spacing: 1px;
+  color: #0a2850;
+}
+
+.page__header-description {
+  max-width: 683px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 25px;
+  color: #696969;
+}
+
+.page__header-image {
+  position: absolute;
+  top: 124px;
+  right: 5px;
+  width: 646px;
+  height: 568px;
+}
+
+.page__recipes {
+  background-color: #0a2850;
+  background-image: url("../images/background_recipes.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 80px;
+}
+
+.recipes__cards {
+  display: flex;
+  justify-content: space-around;
+}
+
+.recipes__card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+}
+
+.recipes__card-image {
+  height: 150px;
+  width: 150px;
+}
+
+.recipes__card-title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 72px;
+  letter-spacing: 1px;
+  color: #ffffff;
+}
+
+.recipes__card-description {
+  max-width: 300px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 25px;
+  color: #ffffff;
+}
+
+.recipes__card-description-list {
+  padding: 0px;
+  list-style-type: none;
+}
+
+.recipes__card-description-item {
+  max-width: 300px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 25px;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.recipes__card-description-item:last-child {
+  margin-bottom: 0px;
+}
+
+.page__identidad {
+  background-image: url("../images/background_reservation.svg");
+  background-color: #d9e7ff;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.page__identidad-title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  margin: 0 auto 80px;
+  padding-top: 100px;
+}
+
+.page__identidad-image {
+  margin-bottom: 80px;
+}
+
+.page__identidad-description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 885px;
+  padding-bottom: 100px;
+}
+
+.page__identidad-paragraph {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 25px;
+  color: #252525;
+}
+
+.page__identidad-list {
+  display: flex;
+  padding: 0px;
+  list-style-type: none;
+  gap: 20px;
+}
+
+.page__identidad-list-item {
+  max-width: 300px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 25px;
+  color: #252525;
+  margin-bottom: 10px;
+}
+
+.page__ejemplos {
+  background-image: url("../images/fortinet-red.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(255, 255, 255, 0.2);
+  background-blend-mode: lighten;
+  padding: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.page__ejemplos-card {
+  margin: 80px;
+}
+
+.page__ejemplos-title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  margin: 0 auto 80px;
+  color: white;
+}
+
+.page__ejemplos-card-image {
+  opacity: 1;
+  padding: 20px;
+}
+
+.page__ejemplos-card-description-list {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: decimal;
+  gap: 30px;
+}
+
+.page__ejemplos-card-description-item {
+  max-width: 250px;
+  height: auto;
+  color: white;
+}
+
+.page__ejemplos-rasgos-container {
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+  padding: 20px;
+}
+
+.page__ejemplos-rasgos {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.page__ejemplos-rasgos-item {
+  list-style-type: none;
+  max-width: 300px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 25px;
+  color: #ffffff;
+  height: 100%;
+}
+
+.page__ejemplos-rasgos-image {
+  padding: 20px;
+}
+
+.page__footer {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: white;
+  width: 80%;
+}
