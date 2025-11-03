@@ -269,6 +269,8 @@
 
 .page__ejemplos-rasgos-image {
   padding: 20px;
+  width: 650;
+  height: 450px;
 }
 
 .page__footer {
@@ -276,5 +278,5 @@
   font-weight: 500;
   font-size: 16px;
   color: white;
-  width: 80%;
+  width: 75%;
 }
